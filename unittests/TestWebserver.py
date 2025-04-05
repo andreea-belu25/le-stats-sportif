@@ -149,7 +149,7 @@ class TestWebserver(unittest.TestCase):
             This test verifies that the num_jobs endpoint correctly rejects POST requests.
         """
 
-        res = self.client.post("/api/num_jobs")
+        response = self.client.post("/api/num_jobs")
         self.assertEqual(response.status_code, 405)
         
         # Check if response contains error message
