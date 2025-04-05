@@ -26,8 +26,8 @@ def format_time_utc(*_args):
 formatter = logging.Formatter('[%(asctime)s] [%(levelname)s] %(message)s')
 formatter.formatTime = format_time_utc
 
-# Create rotating file handler for general logs
-handler = RotatingFileHandler('webserver.log', maxBytes=10 * 1024 * 1024,
+# Create rotating file handler
+handler = RotatingFileHandler('webserver.log', maxBytes = 10 * 1024 * 1024,
                                backupCount = 5, encoding = 'utf-8')
 
 # Apply formatter to the handler

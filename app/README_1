@@ -1,0 +1,187 @@
+`` Belu Andreea-Daniela, 333CB ``
+
+# A multi-threaded Flask web server that processes and analyzes nutrition, physical activity, and obesity data over a period of years. #
+
+
+## ``__init__.py`` initializes a Flask web application with data processing capabilities.
+
+## ``run.py `` represents the main entry point for the web application.
+
+    It initializes and runs the Flask web server.
+    It first tests data access to verify the DataIngestor is properly initialized.
+
+## `` webserver_log.py `` creates a logger named 'webserver' that captures all log levels
+
+    It defines a custom time formatting function that uses UTC time (gmtime).
+    It creates a log message format that includes timestamp, log level, and message
+    It sets up a rotating file handler.
+    It applies the formatter to the handler and adds it to the logger.
+
+##  ``data_ingestor.py `` handles the core data processing functionality for the health statistics application
+
+    It reads the data from the `nutrition_activity_obesity_usa_subset.csv' file, using only the mentioned columns.
+    Then, it provides some results based on a certain criteria in order to analyze the data from the csv, using the following functions:
+    
+    #  `get_state_mean(self, question)`:
+        -  identifies all rows where the 'Question' column matches the input question
+        -  groups the filtered data by state, creating groups where each contains all data for a specific state
+        -  for each state group, calculates the mean of the 'Data_Value' column
+        -  sorts these means in ascending order
+        -  returns a dictionary with all states and their mean values
+
+    #  `get_state_mean(self, state, question)`:
+        -  the logic is similar to get_states_mean(), but it applies only to a specific state, filtering data by both question and state
+
+    #  `get_best5(self, question)`:
+        -  gets the mean values for all states, using get_state_mean() function
+        -  depending on the type of question, returns either the first five values or the last five values as a dictionary
+
+    #  `get_worst5(self, question)`:
+        -  the logic is similar to get_best5()
+
+    #  `get_global_mean(self, question)`:
+        -  filters the dataset for a specific health question
+        -  calculates the average of all Data_Value entries across all states
+        -  returns a dictionary with a single key "global_mean" and the calculated average
+
+    #  `get_diff_from_mean(self, question)`:
+        -  gets the global mean for a question
+        -  gets the mean for each state
+        -  calculates the difference (global mean - state mean) for every state
+        -  returns a dictionary mapping each state to its difference from the global mean
+
+    #  `get_state_diff_from_mean(self, state, question)`:
+        -  the logic is similar to get_diff_from_mean(), but it applies only to a specific state
+
+    #  `get_mean_by_category(self, question)`:
+        -  filters the dataset for a specific health question
+        -  groups data by state, category (StratificationCategory1), and segment (Stratification1)
+        -  calculates the mean for each unique combination
+        - returns a dictionary where keys are formatted as "(state, category, segment)" strings and values are the corresponding means
+
+    #  `get_state_mean_by_category(self, state, question)`:
+        -  the logic is similar to get_diff_from_mean(), but it applies only to a specific state
+
+##  ``routes.py`` implements all the API endpoints
+
+    #  '/api/post_endpoint' - post_endpoint()
+        -  example endpoint that echoes back received JSON data
+    
+    #  '/api/get_results/<job_id>' - get_response(job_id)
+        -  retrieves results for a specific job
+    
+    #  '/api/states_mean' - states_mean_request()
+        -   calculates mean values for all states for a given health criteria
+    
+    #  '/api/state_mean'  - state_mean_request()
+        -  calculates mean value for a specific state for a given health criteria
+    
+    #  '/api/best5' - best5_request()
+        -  returns top 5 states for a given health criteria
+
+    #  '/api/worst5' - worst5_request()
+        -  returns bottom 5 states for a given health criteria
+
+    #  '/api/global_mean' - global_mean_request()
+        -  calculates overall mean for a given health criteria
+    
+    #  '/api/diff_from_mean' - diff_from_mean_request()
+        -  calculates difference from global mean for all states
+
+    #  '/api/state_diff_from_mean' - state_diff_from_mean_request()
+        -  calculates difference from global mean for a specific state
+    
+    #  '/api/mean_by_category' - mean_by_category_request()
+        -  calculates mean values by demographic categories
+
+    #  '/api/state_mean_by_category' - state_mean_by_category_request()
+        -  calculates mean values by demographic categories for a specific state
+    
+    #  '/api/graceful_shutdown' - graceful_shutdown()
+        -  initiates server shutdown process
+    
+    #  '/api/jobs' - get_all_jobs()
+        -  returns status of all jobs
+
+    #  '/api/num_jobs' - get_num_jobs()
+        -  returns number of remaining jobs
+ 
+    #  / and /index - displays welcome page with list of available routes
+
+    Each endpoint validates the request method, checks if the server is shutting down, processes data through a task queue and returns the appropiate reponse.
+
+    The job status can be checked using the provided job IDs.
+
+    The module also includes error handling and logging to support the functionality of the web server.
+
+##  ``task_runner.py`` handles the synchronization part; data processing tasks are submitted to a thread pool
+
+    ##  ``class Threadpool`` a pool of worker threads that manages tasks submitted 
+
+        #  `__init__(self, data_ingestor)`:
+            -  determines thread count from environment variable or CPU count
+            -  creates task queue, shutdown event, and job results dictionary
+            -  initializes and starts task runner threads
+        
+        #  `submit(self, task_type, args, job_id)`:
+            -  marks job status as "pending" in job_results dictionary
+            -  adds task to queue with task type, arguments, and job ID
+        
+        #  `shutdown(self)`:
+            -  sets graceful shutdown event to signal threads to stop
+            -  joins all task runner threads to wait for completion
+
+        #  `get_job_status(self, job_id)`:
+            -  retrieves and returns job status information for given job ID
+            -  returns None if job ID doesn't exist
+
+    ##  ``class TaskRunner(Thread)`` - worker thread that processes tasks from the queue.
+
+        #  `__init__(self, index, threadpool)`:
+            -  initializes thread considering queue and task context
+            -  maps task type to the specific data ingestor method
+    
+        #  `run(self)`:
+            -  main loop that continuously checks for tasks in queue
+            -  exits when shutdown event is set and queue is empty
+            -  updates job status to "processing", executes task, then marks as "completed"
+            -  handles timeouts to allow checking shutdown state
+
+        #  `save_result(self, job_id, result)`:
+            -  creates results directory if it doesn't exist
+            -  saves job result to disk as JSON file in results directory
+
+##  ``unittests/TestWebserver.py`` tests created to check the webserver's functionality that is not checked by the checker
+
+    #  `setUp(self)`:
+        -  initializes test environment before each test
+        -  sets webserver to testing mode
+        -  creates a test client for making API requests
+        -  initializes data ingestor with test dataset
+
+    #  `test_csv_read_correctly(self)`:
+        -  verifies the CSV data is loaded correctly
+        -  checks that DataFrame exists and is not empty
+        -  validates that all expected columns are present
+
+    #  `test_get_results_invalid_job_id_high(self)` / `test_get_results_invalid_job_id_low(self)`:
+        -  tests API response for job ID higher / lower than valid range
+        -  verifies correct status code and error message
+
+    #  `test_graceful_shutdown(self)`:
+        -  tests the server's graceful shutdown functionality
+        -  verifies shutdown status is correctly returned
+        -  confirms that new requests are rejected
+
+    #  `test_get_all_jobs(self)`:
+        -  tests the jobs listing
+        -  verifies response structure and success status
+
+    #  `test_get_num_jobs(self)`:
+        -  tests the endpoint that returns job count
+        -  verifies response includes remaining jobs information
+
+    #  `test_post_num_job(self)`:
+        -  tests that GET-only endpoints reject POST requests
+        -  verifies 405 Method Not Allowed status code
+        -  checks error message

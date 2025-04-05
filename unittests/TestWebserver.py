@@ -161,7 +161,3 @@ class TestWebserver(unittest.TestCase):
                     self.assertEqual(response_data["error"], "Method not allowed")
             except json.JSONDecodeError:
                 pass  # If not JSON, that's okay for a 405 response
-
-
-if __name__ == '__main__':
-    unittest.main()
