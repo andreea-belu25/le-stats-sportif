@@ -9,7 +9,7 @@ class DataIngestor:
     """
         It loads the data from the csv file.
         It computes different results regarding nutrition, activity, and obesity rate.
-    """ 
+    """
 
     def __init__(self, csv_path: str):
 

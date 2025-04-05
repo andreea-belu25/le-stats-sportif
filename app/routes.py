@@ -290,7 +290,7 @@ def state_mean_by_category_request():
         is shutting down.
         It handles API requests for getting data about state mean by category.
         It returns the job_id that can be used to follow the result status.
-    """ 
+    """
 
     if getattr(webserver, 'shutting_down', False):
         logger.error("Server is shutting down")
