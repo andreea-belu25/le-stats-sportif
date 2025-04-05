@@ -154,7 +154,7 @@ class TaskRunner(Thread):
                 "worker": self.index,
             }
 
-###
+
     def save_result(self, job_id, result):
 
         """
