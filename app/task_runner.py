@@ -165,4 +165,4 @@ class TaskRunner(Thread):
         filename = f"results/job_{job_id}.json"
 
         with open(filename, 'w', encoding = 'utf-8') as result_file:
-            json.dump(result, result_file)
+            json.dump(result, result_file) 
