@@ -33,5 +33,5 @@ handler = RotatingFileHandler('webserver.log', maxBytes = 10 * 1024 * 1024,
 # Apply formatter to the handler
 handler.setFormatter(formatter)
 
-# Add handler to logger 
+# Add handler to logger     
 logger.addHandler(handler)
