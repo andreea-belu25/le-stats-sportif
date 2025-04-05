@@ -19397,3 +19397,313 @@
 [2025-04-03 11:18:40] [ERROR] Invalid job_id: 0
 [2025-04-03 11:18:40] [INFO] Graceful shutdown requested
 [2025-04-03 11:18:40] [ERROR] Server is shutting down
+[2025-04-05 11:06:17] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily'} for hopefully get_best5
+[2025-04-05 11:06:17] [INFO] Hopefully get results from {'job_id': 1}
+[2025-04-05 11:06:17] [INFO] Hopefully get results from {'job_id': 1}
+[2025-04-05 11:06:17] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity'} for hopefully get_best5
+[2025-04-05 11:06:17] [INFO] Hopefully get results from {'job_id': 2}
+[2025-04-05 11:06:17] [INFO] Hopefully get results from {'job_id': 2}
+[2025-04-05 11:06:17] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily'} for hopefully get_best5
+[2025-04-05 11:06:17] [INFO] Hopefully get results from {'job_id': 3}
+[2025-04-05 11:06:17] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_best5
+[2025-04-05 11:06:17] [INFO] Hopefully get results from {'job_id': 4}
+[2025-04-05 11:06:17] [INFO] Hopefully get results from {'job_id': 4}
+[2025-04-05 11:06:17] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity'} for hopefully get_best5
+[2025-04-05 11:06:17] [INFO] Hopefully get results from {'job_id': 5}
+[2025-04-05 11:06:18] [INFO] Hopefully get results from {'job_id': 5}
+[2025-04-05 11:06:18] [INFO] Got request data: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_best5
+[2025-04-05 11:06:18] [INFO] Hopefully get results from {'job_id': 6}
+[2025-04-05 11:06:18] [INFO] Hopefully get results from {'job_id': 6}
+[2025-04-05 11:06:18] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_best5
+[2025-04-05 11:06:18] [INFO] Hopefully get results from {'job_id': 7}
+[2025-04-05 11:06:18] [INFO] Hopefully get results from {'job_id': 7}
+[2025-04-05 11:06:18] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'} for hopefully get_best5
+[2025-04-05 11:06:18] [INFO] Hopefully get results from {'job_id': 8}
+[2025-04-05 11:06:18] [INFO] Hopefully get results from {'job_id': 8}
+[2025-04-05 11:06:18] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_best5
+[2025-04-05 11:06:18] [INFO] Hopefully get results from {'job_id': 9}
+[2025-04-05 11:06:19] [INFO] Hopefully get results from {'job_id': 9}
+[2025-04-05 11:06:24] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:24] [INFO] Hopefully get results from {'job_id': 10}
+[2025-04-05 11:06:25] [INFO] Hopefully get results from {'job_id': 10}
+[2025-04-05 11:06:25] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:25] [INFO] Hopefully get results from {'job_id': 11}
+[2025-04-05 11:06:25] [INFO] Hopefully get results from {'job_id': 11}
+[2025-04-05 11:06:25] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:25] [INFO] Hopefully get results from {'job_id': 12}
+[2025-04-05 11:06:25] [INFO] Hopefully get results from {'job_id': 12}
+[2025-04-05 11:06:25] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:25] [INFO] Hopefully get results from {'job_id': 13}
+[2025-04-05 11:06:25] [INFO] Hopefully get results from {'job_id': 13}
+[2025-04-05 11:06:25] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:25] [INFO] Hopefully get results from {'job_id': 14}
+[2025-04-05 11:06:26] [INFO] Hopefully get results from {'job_id': 14}
+[2025-04-05 11:06:26] [INFO] Got request data: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:26] [INFO] Hopefully get results from {'job_id': 15}
+[2025-04-05 11:06:26] [INFO] Hopefully get results from {'job_id': 15}
+[2025-04-05 11:06:26] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:26] [INFO] Hopefully get results from {'job_id': 16}
+[2025-04-05 11:06:26] [INFO] Hopefully get results from {'job_id': 16}
+[2025-04-05 11:06:26] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:26] [INFO] Hopefully get results from {'job_id': 17}
+[2025-04-05 11:06:26] [INFO] Hopefully get results from {'job_id': 17}
+[2025-04-05 11:06:26] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:26] [INFO] Hopefully get results from {'job_id': 18}
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 18}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 19}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 20}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 21}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 22}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 23}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 24}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 25}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 26}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_global_mean
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 27}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily'} for hopefully get_mean_by_category
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 28}
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 28}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity'} for hopefully get_mean_by_category
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 29}
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 29}
+[2025-04-05 11:06:27] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily'} for hopefully get_mean_by_category
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 30}
+[2025-04-05 11:06:27] [INFO] Hopefully get results from {'job_id': 30}
+[2025-04-05 11:06:28] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_mean_by_category
+[2025-04-05 11:06:28] [INFO] Hopefully get results from {'job_id': 31}
+[2025-04-05 11:06:28] [INFO] Hopefully get results from {'job_id': 31}
+[2025-04-05 11:06:28] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity'} for hopefully get_mean_by_category
+[2025-04-05 11:06:28] [INFO] Hopefully get results from {'job_id': 32}
+[2025-04-05 11:06:28] [INFO] Hopefully get results from {'job_id': 32}
+[2025-04-05 11:06:28] [INFO] Got request data: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_mean_by_category
+[2025-04-05 11:06:28] [INFO] Hopefully get results from {'job_id': 33}
+[2025-04-05 11:06:28] [INFO] Hopefully get results from {'job_id': 33}
+[2025-04-05 11:06:28] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_mean_by_category
+[2025-04-05 11:06:28] [INFO] Hopefully get results from {'job_id': 34}
+[2025-04-05 11:06:29] [INFO] Hopefully get results from {'job_id': 34}
+[2025-04-05 11:06:29] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'} for hopefully get_mean_by_category
+[2025-04-05 11:06:29] [INFO] Hopefully get results from {'job_id': 35}
+[2025-04-05 11:06:29] [INFO] Hopefully get results from {'job_id': 35}
+[2025-04-05 11:06:29] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_mean_by_category
+[2025-04-05 11:06:29] [INFO] Hopefully get results from {'job_id': 36}
+[2025-04-05 11:06:29] [INFO] Hopefully get results from {'job_id': 36}
+[2025-04-05 11:06:29] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Delaware'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:29] [INFO] Hopefully get results from {'job_id': 37}
+[2025-04-05 11:06:29] [INFO] Hopefully get results from {'job_id': 37}
+[2025-04-05 11:06:29] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Delaware'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:29] [INFO] Hopefully get results from {'job_id': 38}
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 38}
+[2025-04-05 11:06:30] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Florida'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 39}
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 39}
+[2025-04-05 11:06:30] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Florida'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 40}
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 40}
+[2025-04-05 11:06:30] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Massachusetts'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 41}
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 41}
+[2025-04-05 11:06:30] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Florida'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 42}
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 42}
+[2025-04-05 11:06:30] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Massachusetts'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:30] [INFO] Hopefully get results from {'job_id': 43}
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 43}
+[2025-04-05 11:06:31] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Florida'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 44}
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 44}
+[2025-04-05 11:06:31] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Minnesota'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 45}
+[2025-04-05 11:06:31] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Florida'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 46}
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 46}
+[2025-04-05 11:06:31] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Massachusetts'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 47}
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 47}
+[2025-04-05 11:06:31] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Minnesota'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:31] [INFO] Hopefully get results from {'job_id': 48}
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 48}
+[2025-04-05 11:06:32] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Massachusetts'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 49}
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 49}
+[2025-04-05 11:06:32] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Minnesota'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 50}
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 50}
+[2025-04-05 11:06:32] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Minnesota'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 51}
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 51}
+[2025-04-05 11:06:32] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Delaware'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 52}
+[2025-04-05 11:06:32] [INFO] Hopefully get results from {'job_id': 52}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Delaware'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 53}
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 53}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Delaware'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 54}
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 54}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Minnesota'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 55}
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 55}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily', 'state': 'Massachusetts'} for hopefully get_diff_from_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 56}
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 56}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Wyoming'} for hopefully get_state_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 57}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Wyoming'} for hopefully get_state_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 58}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Oregon'} for hopefully get_state_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 59}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Oregon'} for hopefully get_state_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 60}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Connecticut'} for hopefully get_state_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 61}
+[2025-04-05 11:06:33] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Oregon'} for hopefully get_state_mean
+[2025-04-05 11:06:33] [INFO] Hopefully get results from {'job_id': 62}
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 62}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Connecticut'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 63}
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 63}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Oregon'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 64}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Colorado'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 65}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Oregon'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 66}
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 66}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Connecticut'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 67}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Colorado'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 68}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Connecticut'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 69}
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 69}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Colorado'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 70}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Colorado'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 71}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity', 'state': 'Wyoming'} for hopefully get_state_mean
+[2025-04-05 11:06:34] [INFO] Hopefully get results from {'job_id': 72}
+[2025-04-05 11:06:34] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Wyoming'} for hopefully get_state_mean
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 73}
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 73}
+[2025-04-05 11:06:35] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Wyoming'} for hopefully get_state_mean
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 74}
+[2025-04-05 11:06:35] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily', 'state': 'Colorado'} for hopefully get_state_mean
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 75}
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 75}
+[2025-04-05 11:06:35] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week', 'state': 'Connecticut'} for hopefully get_state_mean
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 76}
+[2025-04-05 11:06:35] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 77}
+[2025-04-05 11:06:35] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 78}
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 78}
+[2025-04-05 11:06:35] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 79}
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 79}
+[2025-04-05 11:06:35] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 80}
+[2025-04-05 11:06:35] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Michigan'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:35] [INFO] Hopefully get results from {'job_id': 81}
+[2025-04-05 11:06:36] [INFO] Hopefully get results from {'job_id': 81}
+[2025-04-05 11:06:36] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Indiana'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:36] [INFO] Hopefully get results from {'job_id': 82}
+[2025-04-05 11:06:36] [INFO] Hopefully get results from {'job_id': 82}
+[2025-04-05 11:06:36] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Michigan'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:36] [INFO] Hopefully get results from {'job_id': 83}
+[2025-04-05 11:06:36] [INFO] Hopefully get results from {'job_id': 83}
+[2025-04-05 11:06:36] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Indiana'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:36] [INFO] Hopefully get results from {'job_id': 84}
+[2025-04-05 11:06:36] [INFO] Hopefully get results from {'job_id': 84}
+[2025-04-05 11:06:36] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:36] [INFO] Hopefully get results from {'job_id': 85}
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 85}
+[2025-04-05 11:06:37] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Indiana'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 86}
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 86}
+[2025-04-05 11:06:37] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 87}
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 87}
+[2025-04-05 11:06:37] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 88}
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 88}
+[2025-04-05 11:06:37] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 89}
+[2025-04-05 11:06:37] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'West Virginia'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:37] [INFO] Hopefully get results from {'job_id': 90}
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 90}
+[2025-04-05 11:06:38] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'West Virginia'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 91}
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 91}
+[2025-04-05 11:06:38] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Maryland'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 92}
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 92}
+[2025-04-05 11:06:38] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Maryland'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 93}
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 93}
+[2025-04-05 11:06:38] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'Maryland'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 94}
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 94}
+[2025-04-05 11:06:38] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity', 'state': 'West Virginia'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:38] [INFO] Hopefully get results from {'job_id': 95}
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 95}
+[2025-04-05 11:06:39] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)', 'state': 'Michigan'} for hopefully get_state_mean_by_category
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 96}
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 96}
+[2025-04-05 11:06:39] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily'} for hopefully get_states_mean
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 97}
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 97}
+[2025-04-05 11:06:39] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity'} for hopefully get_states_mean
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 98}
+[2025-04-05 11:06:39] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily'} for hopefully get_states_mean
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 99}
+[2025-04-05 11:06:39] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_states_mean
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 100}
+[2025-04-05 11:06:39] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity'} for hopefully get_states_mean
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 101}
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 101}
+[2025-04-05 11:06:39] [INFO] Got request data: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_states_mean
+[2025-04-05 11:06:39] [INFO] Hopefully get results from {'job_id': 102}
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 102}
+[2025-04-05 11:06:40] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_states_mean
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 103}
+[2025-04-05 11:06:40] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'} for hopefully get_states_mean
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 104}
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 104}
+[2025-04-05 11:06:40] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_states_mean
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 105}
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 105}
+[2025-04-05 11:06:40] [INFO] Got request data: {'question': 'Percent of adults who report consuming vegetables less than one time daily'} for hopefully get_worst5
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 106}
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 106}
+[2025-04-05 11:06:40] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have obesity'} for hopefully get_worst5
+[2025-04-05 11:06:40] [INFO] Hopefully get results from {'job_id': 107}
+[2025-04-05 11:06:41] [INFO] Hopefully get results from {'job_id': 107}
+[2025-04-05 11:06:41] [INFO] Got request data: {'question': 'Percent of adults who report consuming fruit less than one time daily'} for hopefully get_worst5
+[2025-04-05 11:06:41] [INFO] Hopefully get results from {'job_id': 108}
+[2025-04-05 11:06:41] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic physical activity and engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_worst5
+[2025-04-05 11:06:41] [INFO] Hopefully get results from {'job_id': 109}
+[2025-04-05 11:06:41] [INFO] Got request data: {'question': 'Percent of adults who engage in no leisure-time physical activity'} for hopefully get_worst5
+[2025-04-05 11:06:41] [INFO] Hopefully get results from {'job_id': 110}
+[2025-04-05 11:06:41] [INFO] Got request data: {'question': 'Percent of adults who engage in muscle-strengthening activities on 2 or more days a week'} for hopefully get_worst5
+[2025-04-05 11:06:41] [INFO] Hopefully get results from {'job_id': 111}
+[2025-04-05 11:06:41] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 300 minutes a week of moderate-intensity aerobic physical activity or 150 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_worst5
+[2025-04-05 11:06:41] [INFO] Hopefully get results from {'job_id': 112}
+[2025-04-05 11:06:41] [INFO] Got request data: {'question': 'Percent of adults aged 18 years and older who have an overweight classification'} for hopefully get_worst5
+[2025-04-05 11:06:41] [INFO] Hopefully get results from {'job_id': 113}
+[2025-04-05 11:06:41] [INFO] Got request data: {'question': 'Percent of adults who achieve at least 150 minutes a week of moderate-intensity aerobic physical activity or 75 minutes a week of vigorous-intensity aerobic activity (or an equivalent combination)'} for hopefully get_worst5
+[2025-04-05 11:06:41] [INFO] Hopefully get results from {'job_id': 114}
+[2025-04-05 11:08:02] [INFO] Getting all jobs
+[2025-04-05 11:08:02] [INFO] Hopefully get results from {'job_id': 9999}
+[2025-04-05 11:08:02] [ERROR] Invalid job_id: 9999
+[2025-04-05 11:08:02] [INFO] Hopefully get results from {'job_id': 0}
+[2025-04-05 11:08:02] [ERROR] Invalid job_id: 0
+[2025-04-05 11:08:02] [INFO] Graceful shutdown requested
+[2025-04-05 11:08:02] [ERROR] Server is shutting down

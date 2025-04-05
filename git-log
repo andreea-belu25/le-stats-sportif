@@ -1,53 +1,77 @@
+commit d254ecbe1ad2be7824d6842e30141eefff363e27
+Author: andreea-belu25 <andreeabelu254@gmail.com>
+Date:   Sat Apr 5 18:05:04 2025 +0300
+
+    final version of readme
+
+commit b41fc8f7cac283cb756fcdfa93a30f3a045eaf7a
+Author: andreea-belu25 <andreeabelu254@gmail.com>
+Date:   Sat Apr 5 15:50:44 2025 +0300
+
+    modify task_runner.py
+
+commit 26d49a3746d6d664d642551f3baef57552f82775
+Author: andreea-belu25 <andreeabelu254@gmail.com>
+Date:   Sat Apr 5 13:58:17 2025 +0300
+
+    update webserver_log.py
+
+commit ca440d08d224dbe53def5233019ef64fc1249be9
+Author: andreea-belu25 <andreeabelu254@gmail.com>
+Date:   Sat Apr 4 18:17:23 2025 +0300
+
+    update routes.py & task_runner.py
+
 commit 97b3381a2427aef734edf4ec67e07c01cd27ca65
 Author: andreea-belu25 <andreeabelu254@gmail.com>
-Date:   Sat Apr 5 13:56:18 2025 +0300
+Date:   Sat Apr 4 15:56:18 2025 +0300
 
     update readme
 
 commit ca79f842d7040c05cb1b2c6b20b273fbd9f1b1e8
 Author: andreea-belu25 <andreeabelu254@gmail.com>
-Date:   Sat Apr 5 13:54:54 2025 +0300
+Date:   Sat Apr 4 13:54:54 2025 +0300
 
     update data_ingestor.py
 
 commit bd956d9e54deddb9c349d11b8ecb00221674bcb1
 Author: Andreea-Daniela Belu <119062819+andreea-belu25@users.noreply.github.com>
-Date:   Thu Apr 3 15:55:00 2025 +0300
+Date:   Thu Apr 3 17:00:05 2025 +0300
 
     Delete extra_utils directory
 
 commit 3c2c7803a063332ee9c53d06a823021e3ce2f79b
 Author: Andreea-Daniela Belu <119062819+andreea-belu25@users.noreply.github.com>
-Date:   Thu Apr 3 15:54:36 2025 +0300
+Date:   Thu Apr 3 16:15:36 2025 +0300
 
     Delete archive.zip
 
 commit 54838aeb380e9c25a0a196bf128e632d15f41e02
 Author: Andreea-Daniela Belu <119062819+andreea-belu25@users.noreply.github.com>
-Date:   Thu Apr 3 15:54:25 2025 +0300
+Date:   Thu Apr 3 16:00:25 2025 +0300
 
     Delete a.txt
 
 commit 5aa6f4911639700e36ff1378a39c55b62b87598e
 Author: Andreea-Daniela Belu <119062819+andreea-belu25@users.noreply.github.com>
-Date:   Thu Apr 3 15:47:10 2025 +0300
+Date:   Thu Apr 3 15:30:10 2025 +0300
 
     Delete app/out.json
 
 commit ca2e2cf141b365fd41537fc25831aaeb28367530
 Author: Andreea-Daniela Belu <119062819+andreea-belu25@users.noreply.github.com>
-Date:   Thu Apr 3 15:46:58 2025 +0300
+Date:   Thu Apr 3 14:00:58 2025 +0300
 
     Delete app/formatted_data.txt
 
 commit b3bbec057b97f71a6a32273071a0aa8e1379565e
 Author: Andreea-Daniela Belu <119062819+andreea-belu25@users.noreply.github.com>
-Date:   Thu Apr 3 15:46:47 2025 +0300
+Date:   Thu Apr 3 13:46:47 2025 +0300
 
     Delete app/formatted_data.csv
 
 commit b998fa5eed5e4cd58a1b72a865125dd952793819
 Author: andreea-belu25 <andreeabelu254@gmail.com>
-Date:   Thu Apr 3 15:42:42 2025 +0300
+Date:   Thu Apr 2 15:42:42 2025 +0300
 
     first commit
