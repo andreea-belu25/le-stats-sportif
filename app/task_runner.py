@@ -166,4 +166,3 @@ class TaskRunner(Thread):
 
         with open(filename, 'w', encoding = 'utf-8') as result_file:
             json.dump(result, result_file)
-
