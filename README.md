@@ -6,7 +6,7 @@ from 2011 to 2022 in US states, also considering demographic catgories.
 Organization
 ----
 
-- __init__.py: Initializes the Flask web application with data processing capabilities.
+- init.py: Initializes the Flask web application with data processing capabilities.
 - run.py: Main entry point for the web application. Initializes and runs the Flask web server.
 - webserver_log.py: Creates a logger named 'webserver' that captures all log levels, using a rotating file handler and a custom time format.
 - data_ingestor.py: Handles core data processing functionality for the health statistics application.
