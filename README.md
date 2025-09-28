@@ -37,7 +37,7 @@ Although, I consider there is also room for improvement, I am quite satisfied wi
 Functionality Details
 ---
 `data_ingestor.py`:
-  #  `get_state_mean(self, question)`:
+    `get_state_mean(self, question)`:
         -  identifies all rows where the 'Question' column matches the input question
         -  groups the filtered data by state, creating groups where each contains all data for a specific state
         -  for each state group, calculates the mean of the 'Data_Value' column
