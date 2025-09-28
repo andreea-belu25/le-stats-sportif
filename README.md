@@ -78,7 +78,7 @@ Functionality Details
     - the logic is similar to get_diff_from_mean(), but it applies only to a specific state
 
 `routes.py`:
-    Each endpoint validates the request method, checks if the server is shutting down, processes data through a task queue, 
+    Each endpoint validates the request method, checks if the server is shutting down, processes data through a task queue 
     and returns the appropriate response.
 
 `task_runner.py`:
