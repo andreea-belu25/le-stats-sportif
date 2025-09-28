@@ -37,45 +37,45 @@ Although, I consider there is also room for improvement, I am quite satisfied wi
 Functionality Details
 ---
 `data_ingestor.py`:
-    `get_state_mean(self, question)`:
-        -  identifies all rows where the 'Question' column matches the input question
-        -  groups the filtered data by state, creating groups where each contains all data for a specific state
-        -  for each state group, calculates the mean of the 'Data_Value' column
-        -  sorts these means in ascending order
-        -  returns a dictionary with all states and their mean values
+   #get_state_mean(self, question):
+    - identifies all rows where the 'Question' column matches the input question
+    - groups the filtered data by state, creating groups where each contains all data for a specific state
+    - for each state group, calculates the mean of the 'Data_Value' column
+    - sorts these means in ascending order
+    - returns a dictionary with all states and their mean values
 
-    #  `get_state_mean(self, state, question)`:
-        -  the logic is similar to get_states_mean(), but it applies only to a specific state, filtering data by both question and state
+    #get_state_mean(self, state, question):
+    - the logic is similar to get_states_mean(), but it applies only to a specific state, filtering data by both question and state
 
-    #  `get_best5(self, question)`:
-        -  gets the mean values for all states, using get_state_mean() function
-        -  depending on the type of question, returns either the first five values or the last five values as a dictionary
+    #get_best5(self, question):
+    - gets the mean values for all states, using get_state_mean() function
+    - depending on the type of question, returns either the first five values or the last five values as a dictionary
 
-    #  `get_worst5(self, question)`:
-        -  the logic is similar to get_best5()
+    #get_worst5(self, question):
+    - the logic is similar to get_best5()
 
-    #  `get_global_mean(self, question)`:
-        -  filters the dataset for a specific health question
-        -  calculates the average of all Data_Value entries across all states
-        -  returns a dictionary with a single key "global_mean" and the calculated average
+    #get_global_mean(self, question):
+    - filters the dataset for a specific health question
+    - calculates the average of all Data_Value entries across all states
+    - returns a dictionary with a single key "global_mean" and the calculated average
 
-    #  `get_diff_from_mean(self, question)`:
-        -  gets the global mean for a question
-        -  gets the mean for each state
-        -  calculates the difference (global mean - state mean) for every state
-        -  returns a dictionary mapping each state to its difference from the global mean
+    #get_diff_from_mean(self, question):
+    - gets the global mean for a question
+    - gets the mean for each state
+    - calculates the difference (global mean - state mean) for every state
+    - returns a dictionary mapping each state to its difference from the global mean
 
-    #  `get_state_diff_from_mean(self, state, question)`:
-        -  the logic is similar to get_diff_from_mean(), but it applies only to a specific state
+    #get_state_diff_from_mean(self, state, question):
+    - the logic is similar to get_diff_from_mean(), but it applies only to a specific state
 
-    #  `get_mean_by_category(self, question)`:
-        -  filters the dataset for a specific health question
-        -  groups data by state, category (StratificationCategory1), and segment (Stratification1)
-        -  calculates the mean for each unique combination
-        -  returns a dictionary where keys are formatted as "(state, category, segment)" strings and values are the corresponding means
+    #get_mean_by_category(self, question):
+    - filters the dataset for a specific health question
+    - groups data by state, category (StratificationCategory1), and segment (Stratification1)
+    - calculates the mean for each unique combination
+    - returns a dictionary where keys are formatted as "(state, category, segment)" strings and values are the corresponding means
 
-    #  `get_state_mean_by_category(self, state, question)`:
-        -  the logic is similar to get_diff_from_mean(), but it applies only to a specific state
+    #get_state_mean_by_category(self, state, question):
+    - the logic is similar to get_diff_from_mean(), but it applies only to a specific state
 
 `routes.py`:
     Each endpoint validates the request method, checks if the server is shutting down, processes data through a task queue, 
@@ -96,6 +96,6 @@ Functionality Details
     
 Useful Resources
 ---
-ASC course materials from OCW
-Pandas documentation
-Postman for manual request testing
+- ASC course materials from OCW
+- Pandas documentation
+- Postman for manual request testing
